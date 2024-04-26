@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.container{
+  width: 50%;
+  height: auto;
+  background-color: whitesmoke;
+  border: 1px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+
+h1{
+  font-size: 2rem;
+  color: blueviolet;
+  text-align: center;
+  background-color:aliceblue ;
+}
+form ,label,input,textarea,select,p{
+  background-color: aliceblue;
+  color: black;
+  font-size: 22px;
+
+  
+}
+p{
+  margin: 15px;
+}
+form{
+  width: 80%;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.838);
+  
+  
+  
+  
+}
+
+
+label{
+  margin: 15px;
+}
+input.biodata{
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px auto;
+  margin: 15px;
+}
+input.choice{
+  margin: 15px;
+}
+select{
+  margin: 15px;
+}
+
+button{
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  width: 45%;
+  margin: 10px 10px 10px 0px ;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+}
+
+textarea{
+  width: 90%;
+  height: 15vh;
+  margin: 15px;
+}
